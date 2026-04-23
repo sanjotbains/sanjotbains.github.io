@@ -27,7 +27,7 @@ This adapter has worked wonderfully for many years on my SDS, but attaching it t
 
 Taking a closer look at the input terminals of the tools, one notices an obvious discrepancy: the SDS has only three inputs and the saw four! The battery adapter I've been using also only has terminals for those three outputs, but interestingly only interfaces with two of the battery's contacts: B+/−. The DeWalt batteries have 8 terminals: B+, TH, ID, C1, C2, C3, C4, and B−.
 
-[![DeWalt 20V Max battery contacts](https://upload.wikimedia.org/wikipedia/commons/c/cb/Contacts_on_DeWalt_20V_Max_battery.jpg)](https://upload.wikimedia.org/wikipedia/commons/c/cb/Contacts_on_DeWalt_20V_Max_battery.jpg)
+[![DeWalt 20V Max battery contacts](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Contacts_on_DeWalt_20V_Max_battery.jpg/400px-Contacts_on_DeWalt_20V_Max_battery.jpg)](https://upload.wikimedia.org/wikipedia/commons/c/cb/Contacts_on_DeWalt_20V_Max_battery.jpg)
 
 These tool batteries (most of them, excepting the Powerstack varieties and one other I should have looked up) use widely available 3.7V LiPo cells wired in series — 5 of them specifically, for 18.5V nominal. It's a little more complex than that: larger battery sizes use pairs of cells wired in parallel for more capacity, and there are different cell formats in use (20700s, 18650s, some pouch types, etc.). The terminals labeled C1–C4 provide individual cell voltages for balance charging, though in my more ignorant youth I did use C3 and C4 to power 12V electronics — definitely not recommended by the manufacturer. TH routes to a 10kΩ thermistor to B+, and ID connects to an identification resistor — thankfully we are spared from the handshake protocols Team Red suffers from.
 
