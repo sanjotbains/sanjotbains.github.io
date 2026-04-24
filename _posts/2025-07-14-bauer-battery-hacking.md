@@ -5,6 +5,8 @@ date: 2025-07-14
 categories: tools shop
 ---
 
+>This article is dated to reflect the time of development/completion, not writing.
+
 I have always been a big fan of Harbor Freight. The HF always offers three tiers of tools in every category; for hand tools this is the Pittsburgh, Quinn, and Icon lines (I'll talk about these another time). Of interest today is the cordless power tools; here we have Warrior, Bauer, and Hercules. One should typically disregard the lowest tier entirely. The Warrior power tools are manufactured e-waste, sold to people who need to make one hole and then put this thing away in a cupboard for a couple of years until it is needed again. (I once bought a pack of Warrior drills on a whim and threw the whole thing away after snapping a ⅜" bit in green Doug Fir).
 
 <!-- TODO: Add tier photo here -->

@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Sheldon Lathe Headstock Gear"
+date: 2026-04-09
+categories: tools shop 
+---
+
+>This article is dated to reflect the time of development/completion, not writing.
+
+A quick one today. The gear that transmits power to the carriage feed for turning/threading on the Sheldon MW56P is missing a couple of teeth. 
+
+Unfortunately, in my zeal to get this machine cleaned up and operational I did not get any pictures of the gear train with its 20 years of undisturbed old oil caked on there. The grime was so great that I originally believed this gear to be iron. 
+
+You can imagine I was quite disappointed to find this, as I do not have gear cutters, nor a milling machine for that matter. I had then resolved to simply 3D print the gear.
+
+After pulling the gear, it was submerged with its brethren in the parts washer for the night and scrubbed clean the next day. It's micarta with a pressed in brass bearing! (The manual calls it out as a "Formica" gear.) Really was a pleasure to see this. 
+
+<!-- Insert image from parts list -->
+
+Its twin, the forward feed gear is steel. It seems that this second gear was chosen to be the sacrificial piece should the carriage crash as it is engaged regardless of whether one is feeding right or left. 
+
+<!-- Insert image of right-left selection -->
+
+There is one more Formica gear in the assembly, connnecting the selector gearing assembly to the feed ratio gearbox (which will get its own article). These Formica gears do more than offer break points in crash scenarios-- they quiet the geartrain considerably, anyone that's heard a straight cut gear transmission can attest.
+
+<!-- Insert image of end gearing irl -->
+<!-- Insert image of end gearing in parts list. -->
+
+Anyhow, some measurements with the calipers and some educated guessing (later confirmed) led me to believe the gear was 16 Diametral Pitch with a 14.5 degree pressure angle.
+
+<!-- Scratchpad detail 1 -->
+
+I made this part during the week or so I was trying out Onshape (6.5/10, undercooked) and the spur gear creator tools makes the bulk of the work trivial.
+
+The gear features some bosses that position it laterally on its shaft-- just some raised profiles with a chamfer.
+
+<!-- Onshape gif -->
+
+Now came the issue of the bushing. I could certainly mail order some bronze bushings from McMaster-Carr, or even bronze stock, but why bother when I can simply drive 1 mile to Lowe's and pick up cheap self-lubricating bronze bushings?
+
+And that's what I did. I brought two home with me and modeled a "press-fit" (hard push into the desk) bore into the part to match. 
+>Notice the measurement of the bore shrink in the scratchpad image! 
+
+<!-- Scratchpad image 2
+ -->
+Of course, the bushing bore does not match the the shaft diameter, but this was anticipated; I planned to machine the bores on the lathe before installation to ensure a perfect fit. Machining these self-lubricating bushings is always annoying-- can't really gronk on it in the chuck, there's sticky bronze dust everywhere, a "good" surface finish probably means you've smeared the pores shut. I machined it in a collet to avoid crushing the sintered structure. I am willing to live with the third point, as the bushing is oiled internally via Gits cup. There is now forevermore bronze dust in the lathe.
+
+<!-- Gear installed in headstock -->
+
+Unfortunately, at some point while taking this apart I lost one of the washers. *If only I had a lathe, I could just make a new one ;)*
+
+Anyhow, the feed ratio gear box still needs work before I really can use the power feed or do any threading, so that's next on the list.
