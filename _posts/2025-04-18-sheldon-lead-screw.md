@@ -2,7 +2,7 @@
 layout: post
 title: "Diagnosing lead screw resistance on a Sheldon WM56P"
 date: 2025-04-18
-post_class: technical
+post_class: machining
 tags: [machining, lathe, sheldon, power-feed]
 ---
 

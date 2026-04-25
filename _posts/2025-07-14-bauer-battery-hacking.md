@@ -2,6 +2,7 @@
 layout: post
 title: "Bauer Battery Hacking"
 date: 2025-07-14
+post_class: electrical
 categories: tools shop
 ---
 
@@ -16,7 +17,7 @@ I've never bought any of the Hercules tools as it is my opinion that if you real
 
 With any power tool brand, what you are buying into is the batteries. I've built a charger/storage shrine to my DeWalt batteries in my shop, and even though I know I have enough now, battery sales catch my eye more often than tool sales (≤ $10/Ah).
 
-What is really the sweet spot at the Harbor Freight is their Bauer line-up, especially for filling in those rarely seen holes in my capabilities. For tools I need once in a blue moon, I look to Bauer. To date I've bought from them: the mini-SDS (after seeing [this video](#TODO-link-to-TTC-or-Project-Farm) on air hammers), and the subject of today's spiel — this metal-cutting circular saw, which was in the open box section for a measly **$XX.XX**.
+What is really the sweet spot at the Harbor Freight is their Bauer line-up, especially for filling in those rarely seen holes in my capabilities. For tools I need once in a blue moon, I look to Bauer. To date I've bought from them: the mini-SDS (after seeing [this video](#TODO-link-to-TTC-or-Project-Farm) on air hammers), and the subject of today's spiel — this metal-cutting circular saw, which was in the open box section for a measly **$23.98**.
 
 ![New open-box Bauer cold saw]({{ site.baseurl }}/assets/img/bauer/unboxed_saw.jpg)
 

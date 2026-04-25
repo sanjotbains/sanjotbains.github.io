@@ -17,10 +17,10 @@ $mk-red:      #f92672;
 // Extend this map to add new classes — nothing else needs to change.
 $post-class-colors: (
   "general":   $mk-comment,
-  "technical": $mk-teal,
-  "political": $mk-pink,
-  "fictional": $mk-purple,
-  "personal":  $mk-orange,
+  "machining": $mk-teal,
+  "reviews": $mk-pink,
+  "woodworking": $mk-purple,
+  "electrical":  $mk-orange,
 );
 
 // ── Typography ──────────────────────────────────────────────────────────────

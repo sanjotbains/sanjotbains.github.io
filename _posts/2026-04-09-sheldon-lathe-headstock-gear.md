@@ -2,6 +2,7 @@
 layout: post
 title: "Sheldon Lathe Headstock Gear"
 date: 2026-04-09
+post_class: machining
 categories: tools shop 
 ---
 

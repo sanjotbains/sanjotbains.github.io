@@ -1,8 +1,8 @@
-// ── Political post overrides ──────────────────────────────────────────────────
+// ── reviews post overrides ──────────────────────────────────────────────────
 // Accent: $mk-pink (#f92672)
 // Character: charged, argumentative, declarative
 
-[data-post-class="political"] {
+[data-post-class="reviews"] {
   .post-title { color: $mk-pink; }
 
   .post-content {

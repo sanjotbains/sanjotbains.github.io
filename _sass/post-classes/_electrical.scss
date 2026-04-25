@@ -1,8 +1,8 @@
-// ── Personal post overrides ───────────────────────────────────────────────────
+// ── Electrical post overrides ───────────────────────────────────────────────────
 // Accent: $mk-orange (#fd971f)
 // Character: warm, conversational, looser
 
-[data-post-class="personal"] {
+[data-post-class="electrical"] {
   .post-title { color: $mk-orange; }
 
   .post-content {
@@ -22,7 +22,7 @@
     // em text gets the warm orange
     em { color: $mk-orange; }
 
-    // Images in personal posts get a slight warm border
+    // Images in electrical posts get a slight warm border
     img {
       border: 1px solid rgba($mk-orange, 0.25);
     }
