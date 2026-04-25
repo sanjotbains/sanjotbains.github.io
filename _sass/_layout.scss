@@ -97,11 +97,152 @@
   }
 }
 
-// ── Home / post list ──────────────────────────────────────────────────────────
-.home {
-  max-width: $content-width;
+// ── Home two-column layout ────────────────────────────────────────────────────
+// $sidebar-width: 200px;
+// $home-max-width: $content-width + $sidebar-width + 3rem;
+$sidebar-width: 200px;
+$sidebar-gap: 48px; // equivalent to 3rem at 16px base
+$home-max-width: $content-width + $sidebar-width + $sidebar-gap;
+
+.home-layout {
+  display: grid;
+  grid-template-columns: 1fr $sidebar-width;
+  gap: 3rem;
+  max-width: $home-max-width;
   margin: 0 auto;
   padding: 0 1.25rem;
+  align-items: start;
+
+  // Collapse to single column on narrow viewports
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+
+    .sidebar { display: none; } // sidebar drops off on mobile — posts first
+  }
+
+  &__main {
+    min-width: 0; // prevent grid blowout
+  }
+}
+
+// ── Sidebar ───────────────────────────────────────────────────────────────────
+.sidebar {
+  position: sticky;
+  top: 72px; // clears the 52px header + a bit of breathing room
+  font-family: $font-mono;
+
+  &__section {
+    margin-bottom: 2rem;
+
+    &:last-child { margin-bottom: 0; }
+  }
+
+  &__heading {
+    font-size: 0.68rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $mk-comment;
+    margin: 0 0 0.6rem;
+  }
+
+  // Class filter buttons
+  &__class-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  &__filter {
+    appearance: none;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: $font-mono;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    text-align: left;
+    cursor: pointer;
+    color: $mk-comment;
+    transition: color 0.12s, border-color 0.12s, background 0.12s;
+
+    &:hover {
+      color: $mk-fg;
+      background: $mk-surface;
+    }
+
+    &--active {
+      color: $mk-fg;
+      background: $mk-surface;
+      border-color: $mk-surface2;
+    }
+
+    // Active state gets the class accent color on the left border
+    @each $class, $color in $post-class-colors {
+      &--#{$class}#{&--active},
+      &--#{$class}.sidebar__filter--active {
+        border-left-color: $color;
+        color: $color;
+        background: rgba($color, 0.08);
+      }
+    }
+  }
+
+  // Recent posts list
+  &__recent {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      border-bottom: 1px solid $mk-surface2;
+
+      &:last-child { border-bottom: none; }
+    }
+  }
+
+  &__recent-link {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.4rem;
+    padding: 0.35rem 0;
+    color: $mk-comment;
+    font-size: 0.73rem;
+    line-height: 1.4;
+
+    &:hover { color: $mk-fg; }
+  }
+
+  &__recent-title {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  // Tag cloud
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  &__tag {
+    font-size: 0.68rem;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background: $mk-surface;
+    color: $mk-comment;
+    cursor: default;
+    transition: background 0.12s, color 0.12s;
+
+    &:hover {
+      background: $mk-surface2;
+      color: $mk-fg;
+    }
+  }
 }
 
 .post-list {

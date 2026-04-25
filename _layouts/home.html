@@ -2,38 +2,81 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home-layout">
 
-  {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
+  <div class="home-layout__main">
 
-  {{ content }}
+    {% if page.title %}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {% endif %}
 
-  {% if site.posts.size > 0 %}
-    <ul class="post-list">
-      {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-      {% for year_group in posts_by_year %}
-        <li class="post-list__year-label">{{ year_group.name }}</li>
-        {% for post in year_group.items %}
-          {% assign post_class = post.post_class | default: 'general' %}
-          <li class="post-list__item post-list__item--{{ post_class }}">
-            <a class="post-list__link" href="{{ post.url | relative_url }}">
-              <span class="post-list__title">{{ post.title | escape }}</span>
-              <span class="post-list__meta">
-                <span class="post-class-badge post-class-badge--{{ post_class }}">{{ post_class }}</span>
-                <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
-                  {{ post.date | date: "%b %-d" }}
-                </time>
-              </span>
-            </a>
-            {% if post.excerpt %}
-              <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-            {% endif %}
-          </li>
+    {{ content }}
+
+    {% if site.posts.size > 0 %}
+      <ul class="post-list" id="post-list">
+        {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+        {% for year_group in posts_by_year %}
+          <li class="post-list__year-label" data-year-label="{{ year_group.name }}">{{ year_group.name }}</li>
+          {% for post in year_group.items %}
+            {% assign post_class = post.post_class | default: 'general' %}
+            <li class="post-list__item post-list__item--{{ post_class }}"
+                data-post-class="{{ post_class }}">
+              <a class="post-list__link" href="{{ post.url | relative_url }}">
+                <span class="post-list__title">{{ post.title | escape }}</span>
+                <span class="post-list__meta">
+                  <span class="post-class-badge post-class-badge--{{ post_class }}">{{ post_class }}</span>
+                  <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: "%b %-d" }}
+                  </time>
+                </span>
+              </a>
+              {% if post.excerpt %}
+                <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+              {% endif %}
+            </li>
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
-    </ul>
-  {% endif %}
+      </ul>
+    {% endif %}
+
+  </div>
+
+  {% include sidebar.html %}
 
 </div>
+
+<script>
+  (function () {
+    var filters = document.querySelectorAll('.sidebar__filter');
+    var items   = document.querySelectorAll('.post-list__item[data-post-class]');
+    var labels  = document.querySelectorAll('.post-list__year-label');
+
+    function applyFilter(active) {
+      filters.forEach(function (btn) {
+        btn.classList.toggle('sidebar__filter--active', btn.dataset.filter === active);
+      });
+
+      items.forEach(function (item) {
+        var show = active === 'all' || item.dataset.postClass === active;
+        item.style.display = show ? '' : 'none';
+      });
+
+      // Hide year labels whose sibling posts are all hidden
+      labels.forEach(function (label) {
+        var next = label.nextElementSibling;
+        var hasVisible = false;
+        while (next && !next.classList.contains('post-list__year-label')) {
+          if (next.style.display !== 'none') { hasVisible = true; break; }
+          next = next.nextElementSibling;
+        }
+        label.style.display = hasVisible ? '' : 'none';
+      });
+    }
+
+    filters.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        applyFilter(btn.dataset.filter);
+      });
+    });
+  })();
+</script>
