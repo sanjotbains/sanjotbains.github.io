@@ -1,0 +1,48 @@
+// ── Fictional post overrides ──────────────────────────────────────────────────
+// Accent: $mk-purple (#ae81ff)
+// Character: literary, atmospheric, italic-forward
+
+[data-post-class="fictional"] {
+  .post-title { color: $mk-purple; }
+
+  .post-content {
+    // Body text goes italic — signals "you are reading a story"
+    > p { font-style: italic; }
+
+    // But headings within fiction (scene breaks, chapter markers) stay upright
+    h2, h3 {
+      font-style: normal;
+      color: $mk-purple;
+    }
+
+    h2 { border-left-color: $mk-purple; }
+
+    // Blockquotes become pull-quotes with purple atmosphere
+    blockquote {
+      border-left-color: $mk-purple;
+      background: rgba($mk-purple, 0.06);
+      border-radius: 0 4px 4px 0;
+      font-size: 1.05rem;
+      color: mix($mk-fg, $mk-purple, 70%);
+      font-style: normal; // pull-quote stands out from italic body
+    }
+
+    // em inside italic body = back to upright (double-negative = emphasis)
+    em { font-style: normal; color: $mk-purple; }
+
+    // Scene break: --- renders as a styled hr
+    hr {
+      border: none;
+      text-align: center;
+      margin: 2.5rem 0;
+      color: $mk-comment;
+
+      &::after {
+        content: '✦  ✦  ✦';
+        font-size: 0.75rem;
+        letter-spacing: 0.4em;
+        color: $mk-comment;
+      }
+    }
+  }
+}

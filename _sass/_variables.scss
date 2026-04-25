@@ -1,0 +1,35 @@
+// ── Monokai palette ────────────────────────────────────────────────────────
+$mk-bg:       #272822;
+$mk-surface:  #3e3d32;
+$mk-surface2: #49483e;
+$mk-fg:       #f8f8f2;
+$mk-comment:  #75715e;
+
+$mk-yellow:   #e6db74;
+$mk-orange:   #fd971f;
+$mk-green:    #a6e22e;
+$mk-pink:     #f92672;
+$mk-teal:     #66d9e8;
+$mk-purple:   #ae81ff;
+$mk-red:      #f92672;
+
+// ── Post-class accent colors ────────────────────────────────────────────────
+// Extend this map to add new classes — nothing else needs to change.
+$post-class-colors: (
+  "general":   $mk-comment,
+  "technical": $mk-teal,
+  "political": $mk-pink,
+  "fictional": $mk-purple,
+  "personal":  $mk-orange,
+);
+
+// ── Typography ──────────────────────────────────────────────────────────────
+$font-serif: 'Lora', Georgia, 'Times New Roman', serif;
+$font-mono:  'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
+
+$font-size-base: 17px;
+$line-height-base: 1.8;
+
+// ── Layout ──────────────────────────────────────────────────────────────────
+$content-width: 680px;
+$spacing-unit:  1.5rem;

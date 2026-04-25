@@ -1,0 +1,25 @@
+// ── Technical post overrides ──────────────────────────────────────────────────
+// Accent: $mk-teal (#66d9e8)
+// Character: precise, utilitarian, code-forward
+
+[data-post-class="technical"] {
+  .post-title { color: $mk-teal; }
+
+  .post-content {
+    h2 {
+      border-left-color: $mk-teal;
+      color: $mk-teal;
+    }
+
+    // Code blocks get a subtle teal top-border to feel intentional
+    pre {
+      border-top: 2px solid rgba($mk-teal, 0.4);
+    }
+
+    // Callout boxes: use > blockquote with a NOTE/WARNING prefix in markdown
+    blockquote {
+      border-left-color: $mk-teal;
+      color: mix($mk-fg, $mk-comment, 60%);
+    }
+  }
+}

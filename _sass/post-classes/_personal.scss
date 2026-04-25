@@ -1,0 +1,30 @@
+// ── Personal post overrides ───────────────────────────────────────────────────
+// Accent: $mk-orange (#fd971f)
+// Character: warm, conversational, looser
+
+[data-post-class="personal"] {
+  .post-title { color: $mk-orange; }
+
+  .post-content {
+    // Slightly looser tracking on body — more casual
+    letter-spacing: 0.01em;
+
+    h2 {
+      border-left-color: $mk-orange;
+      color: mix($mk-fg, $mk-orange, 80%);
+    }
+
+    blockquote {
+      border-left-color: $mk-orange;
+      color: mix($mk-fg, $mk-comment, 65%);
+    }
+
+    // em text gets the warm orange
+    em { color: $mk-orange; }
+
+    // Images in personal posts get a slight warm border
+    img {
+      border: 1px solid rgba($mk-orange, 0.25);
+    }
+  }
+}

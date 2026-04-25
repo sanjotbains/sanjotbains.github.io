@@ -1,0 +1,24 @@
+// ── Political post overrides ──────────────────────────────────────────────────
+// Accent: $mk-pink (#f92672)
+// Character: charged, argumentative, declarative
+
+[data-post-class="political"] {
+  .post-title { color: $mk-pink; }
+
+  .post-content {
+    h2 {
+      border-left-color: $mk-pink;
+    }
+
+    // Blockquotes feel more like pull-quotes here — bigger, centered-ish
+    blockquote {
+      border-left-color: $mk-pink;
+      font-size: 1.08rem;
+      color: mix($mk-fg, $mk-comment, 70%);
+      padding-left: 1.5rem;
+    }
+
+    // em text takes the pink rather than yellow — more urgent
+    em { color: $mk-pink; }
+  }
+}

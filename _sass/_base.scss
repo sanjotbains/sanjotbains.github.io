@@ -1,0 +1,131 @@
+// ── Reset / base ────────────────────────────────────────────────────────────
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: $font-size-base;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: $mk-bg;
+  color: $mk-fg;
+  font-family: $font-serif;
+  font-size: 1rem;
+  line-height: $line-height-base;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ── Links ────────────────────────────────────────────────────────────────────
+a {
+  color: $mk-teal;
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover { color: $mk-fg; }
+}
+
+// ── Headings ─────────────────────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: $mk-fg;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.2rem; }
+
+// ── Paragraphs & lists ───────────────────────────────────────────────────────
+p { margin: 0 0 1.25rem; }
+
+ul, ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+
+  li { margin-bottom: 0.35rem; }
+}
+
+// ── Blockquote ───────────────────────────────────────────────────────────────
+blockquote {
+  border-left: 3px solid $mk-comment;
+  margin: 1.75rem 0;
+  padding: 0.75rem 1.25rem;
+  color: $mk-comment;
+  font-style: italic;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+// ── Inline code ──────────────────────────────────────────────────────────────
+code {
+  font-family: $font-mono;
+  font-size: 0.82em;
+  background: $mk-surface;
+  color: $mk-green;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+// ── Code blocks (via jekyll's rouge highlighter) ──────────────────────────────
+pre {
+  background: $mk-surface;
+  border: 1px solid $mk-surface2;
+  border-radius: 5px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin: 1.75rem 0;
+  line-height: 1.6;
+
+  code {
+    background: none;
+    padding: 0;
+    font-size: 0.83em;
+    color: $mk-fg;
+  }
+}
+
+// ── Images ───────────────────────────────────────────────────────────────────
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+// ── Horizontal rule ───────────────────────────────────────────────────────────
+hr {
+  border: none;
+  border-top: 1px solid $mk-surface2;
+  margin: 2.5rem 0;
+}
+
+// ── Tables ────────────────────────────────────────────────────────────────────
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1.75rem 0;
+
+  th {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $mk-comment;
+    border-bottom: 1px solid $mk-surface2;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+  }
+
+  td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid $mk-surface2;
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+}

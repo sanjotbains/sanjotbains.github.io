@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {% endif %}
+
+  {{ content }}
+
+  {% if site.posts.size > 0 %}
+    <ul class="post-list">
+      {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+      {% for year_group in posts_by_year %}
+        <li class="post-list__year-label">{{ year_group.name }}</li>
+        {% for post in year_group.items %}
+          {% assign post_class = post.post_class | default: 'general' %}
+          <li class="post-list__item post-list__item--{{ post_class }}">
+            <a class="post-list__link" href="{{ post.url | relative_url }}">
+              <span class="post-list__title">{{ post.title | escape }}</span>
+              <span class="post-list__meta">
+                <span class="post-class-badge post-class-badge--{{ post_class }}">{{ post_class }}</span>
+                <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+                  {{ post.date | date: "%b %-d" }}
+                </time>
+              </span>
+            </a>
+            {% if post.excerpt %}
+              <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</div>

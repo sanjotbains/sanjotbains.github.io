@@ -1,0 +1,119 @@
+// ── Post layout ───────────────────────────────────────────────────────────────
+.post {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+// ── Post header ───────────────────────────────────────────────────────────────
+.post-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $mk-surface2;
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  &__date {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    color: $mk-comment;
+  }
+}
+
+.post-title {
+  font-size: 1.9rem;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+  color: $mk-fg;
+}
+
+// ── Tags ──────────────────────────────────────────────────────────────────────
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.post-tag {
+  font-family: $font-mono;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: $mk-surface;
+  color: $mk-comment;
+}
+
+// ── Post body typography ──────────────────────────────────────────────────────
+.post-content {
+  font-size: 1rem;
+  line-height: $line-height-base;
+
+  // First paragraph gets slightly larger treatment
+  > p:first-of-type {
+    font-size: 1.05rem;
+    color: mix($mk-fg, $mk-comment, 75%);
+  }
+
+  // Section headings get a left-accent rule
+  h2 {
+    font-size: 1.3rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid $mk-comment;
+    margin-top: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    color: mix($mk-fg, $mk-comment, 70%);
+  }
+
+  // Highlighted text: em → yellow (Monokai string color)
+  em { color: $mk-yellow; font-style: italic; }
+
+  // Strong uses orange accent
+  strong { color: $mk-orange; font-weight: 600; }
+
+  // Linked footnotes etc.
+  a {
+    color: $mk-teal;
+    border-bottom: 1px solid rgba($mk-teal, 0.35);
+
+    &:hover {
+      color: $mk-fg;
+      border-bottom-color: $mk-fg;
+    }
+  }
+}
+
+// ── Post footer ───────────────────────────────────────────────────────────────
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid $mk-surface2;
+  font-family: $font-mono;
+  font-size: 0.78rem;
+
+  &__back {
+    color: $mk-comment;
+
+    &:hover { color: $mk-teal; }
+  }
+}
+
+// ── Syntax highlighting (Rouge Monokai-ish) ────────────────────────────────────
+.highlight {
+  .c,  .c1, .cm  { color: $mk-comment; font-style: italic; }   // comments
+  .k,  .kd, .kn  { color: $mk-pink; }                           // keywords
+  .s,  .s1, .s2  { color: $mk-yellow; }                         // strings
+  .mi, .mf, .m   { color: $mk-purple; }                         // numbers
+  .nf, .nc       { color: $mk-green; }                          // function/class names
+  .nb            { color: $mk-teal; }                           // builtins
+  .n,  .na, .no  { color: $mk-fg; }                             // names
+  .o             { color: $mk-pink; }                           // operators
+}

@@ -1,0 +1,190 @@
+// ── Shared wrapper ────────────────────────────────────────────────────────────
+.site-header__inner,
+.site-footer__inner,
+.site-main > * {
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+// ── Header ────────────────────────────────────────────────────────────────────
+.site-header {
+  background: $mk-surface;
+  border-bottom: 1px solid $mk-surface2;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+  }
+}
+
+.site-title {
+  font-family: $font-mono;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: $mk-green;
+  letter-spacing: 0.02em;
+
+  &:hover { color: $mk-fg; }
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+  font-family: $font-mono;
+  font-size: 0.78rem;
+
+  a {
+    color: $mk-comment;
+
+    &:hover { color: $mk-fg; }
+  }
+}
+
+// ── Main content ──────────────────────────────────────────────────────────────
+.site-main {
+  padding: 3rem 0 4rem;
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+.site-footer {
+  border-top: 1px solid $mk-surface2;
+  padding: 1.25rem 0;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  color: $mk-comment;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: $mk-comment;
+      &:hover { color: $mk-fg; }
+    }
+  }
+}
+
+// ── Post-class badge (shared between list and post header) ────────────────────
+.post-class-badge {
+  font-family: $font-mono;
+  font-size: 0.68rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-transform: lowercase;
+  letter-spacing: 0.03em;
+
+  // Generate a badge variant for every entry in $post-class-colors
+  @each $class, $color in $post-class-colors {
+    &--#{$class} {
+      background: rgba($color, 0.15);
+      color: $color;
+    }
+  }
+}
+
+// ── Home / post list ──────────────────────────────────────────────────────────
+.home {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &__year-label {
+    font-family: $font-mono;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $mk-comment;
+    margin: 2.25rem 0 0.75rem;
+
+    &:first-child { margin-top: 0; }
+  }
+
+  &__item {
+    border-left: 3px solid $mk-surface2;
+    padding: 0.9rem 1.1rem;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s ease;
+
+    // Accent the left border per post class
+    @each $class, $color in $post-class-colors {
+      &--#{$class} {
+        border-left-color: rgba($color, 0.5);
+
+        &:hover { border-left-color: $color; }
+      }
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    color: $mk-fg;
+
+    &:hover { color: $mk-fg; }
+  }
+
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+  }
+
+  &__date {
+    font-family: $font-mono;
+    font-size: 0.73rem;
+    color: $mk-comment;
+    white-space: nowrap;
+  }
+
+  &__excerpt {
+    margin: 0.4rem 0 0;
+    font-size: 0.88rem;
+    color: $mk-comment;
+    line-height: 1.55;
+  }
+}
+
+// ── Page layout ───────────────────────────────────────────────────────────────
+.page {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+
+  &-title {
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $mk-surface2;
+  }
+}
