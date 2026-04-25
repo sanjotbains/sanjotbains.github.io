@@ -21,8 +21,7 @@
 title: sandinbrain
 email: sanjotbains@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Remember the blog era? Not me, I was like 8 years old then and I was a forum kid.
-  Read about whatever stupid machine I have my hands on currently.
+  Blog about whatever damned thing has cut my finger this time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.sandinbrain.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sandinbrain
