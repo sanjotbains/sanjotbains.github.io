@@ -7,7 +7,7 @@
 
   .post-content {
     // Body text goes italic — signals "you are reading a story"
-    > p { font-style: italic; }
+    // > p { font-style: italic; }
 
     // But headings within fiction (scene breaks, chapter markers) stay upright
     h2, h3 {

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bauer Battery Hacking"
+subtitle: "Modifying a battery adapter to work with higher current tools."
 date: 2025-07-14
 post_class: electrical
 categories: tools shop
