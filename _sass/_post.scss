@@ -28,8 +28,16 @@
 .post-title {
   font-size: 1.9rem;
   line-height: 1.2;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.3rem;
   color: $mk-fg;
+}
+
+.post-subtitle {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  margin: 0 0 0.75rem;
+  color: $mk-comment;
+  font-style: italic;
 }
 
 // ── Tags ──────────────────────────────────────────────────────────────────────

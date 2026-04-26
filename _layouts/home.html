@@ -30,7 +30,9 @@ layout: default
                   </time>
                 </span>
               </a>
-              {% if post.excerpt %}
+              {% if post.subtitle %}
+                <p class="post-list__excerpt">{{ post.subtitle | escape }}</p>
+              {% elsif post.excerpt %}
                 <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
               {% endif %}
             </li>

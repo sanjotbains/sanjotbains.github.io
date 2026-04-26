@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Dreaming of Mallets"
+subtitle: "A nice medium heft mallet made of reclaimed lumber"
 date: 2025-04-01
 post_class: woodworking
-categories: tools shop
+tags: [tools, shop]
 ---
 
 > This is a rehashing/expounding/expansion of a thread I wrote about this mallet I made last year.
