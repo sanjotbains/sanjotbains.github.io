@@ -2,7 +2,7 @@
 layout: post
 title: "Boring Bar Holder Adapter"
 subtitle: "A turned sleeve for a oversized bore."
-date: 2026-04-06
+date: 2026-04-08
 post_class: machining
 tags: [tools, shop, machining, lathe]
 ---
