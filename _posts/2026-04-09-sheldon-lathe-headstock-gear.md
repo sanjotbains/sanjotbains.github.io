@@ -47,7 +47,7 @@ And that's what I did. I brought two home with me and modeled a "press-fit" (har
 
 Of course, the bushing bore does not match the the shaft diameter, but this was anticipated; I planned to machine the bores on the lathe before installation to ensure a perfect fit. Machining these self-lubricating bushings is always annoying-- can't really gronk on it in the chuck, there's sticky bronze dust everywhere, a "good" surface finish probably means you've smeared the pores shut. I machined it in a collet to avoid crushing the sintered structure. I am willing to live with the third point, as the bushing is oiled internally via Gits cup. There is now forevermore bronze dust in the lathe.
 
-<!-- Gear installed in headstock -->
+![Installed Gear]({{ site.baseurl }}/assets/img/sheldon/end_gearing_assembled_2.jpg)
 
 Unfortunately, at some point while taking this apart I lost one of the washers. *If only I had a lathe, I could just make a new one ;)*
 
