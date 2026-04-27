@@ -11,9 +11,9 @@ As I mentioned in the [acquistion article]({{ site.baseurl }}/tools/shop/2026/04
 
 >I didn't take any pictures while making this so you'll see the finished part the entire time.
 
-![The Toolholder]({{ site.baseurl }}/assets/img/boring_bar_holder.jpg)
+![The Toolholder]({{ site.baseurl }}/assets/img/sheldon/boring_bar_holder.jpg)
 
-![10mm Boring Bar]({{ site.baseurl }}/assets/img/boring_bar.jpg)
+![10mm Boring Bar]({{ site.baseurl }}/assets/img/sheldon/boring_bar.jpg)
 
 This is a simple enough problem to solve for a man with a lathe. All I need to do is turn a cylinder to fit the boring bar holder and bore it out to fit the boring bar holder. In fact it is such a simple thing I did absolutely zero planning. I spent longer finding a piece of stock to turn this out of than I did thinking about how I was going to make it.
 
