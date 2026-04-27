@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Sheldon Lathe Headstock Gear"
+subtitle: "A 3D printed solution to a Formica problem."
 date: 2026-04-09
 post_class: machining
-categories: tools shop 
+tags: [tools, shop, machining, lathe, Onshape, 3D printing, sheldon]
 ---
-
->This article is dated to reflect the time of development/completion, not writing.
 
 A quick one today. The gear that transmits power to the carriage feed for turning/threading on the Sheldon MW56P is missing a couple of teeth. 
 
