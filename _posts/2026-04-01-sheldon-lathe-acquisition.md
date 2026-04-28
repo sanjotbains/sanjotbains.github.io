@@ -3,7 +3,7 @@ layout: post
 title: "Sheldon Lathe Acquisition"
 date: 2026-04-01
 post_class: machining
-categories: tools shop 
+tags: [tools, shop, machining, lathe, sheldon]
 ---
 
 >This article is dated to reflect the time of development/completion, not writing.
