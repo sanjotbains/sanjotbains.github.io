@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Sheldon Lathe Acquisition"
+title: "I Am Now the Proud Owner of a Lathe."
+subtitle: "Everyone's talking about Young Sheldon, but I like Old Sheldon"
 date: 2026-04-01
 post_class: machining
 tags: [tools, shop, machining, lathe, sheldon]
