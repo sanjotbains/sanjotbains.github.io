@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Poplar Shoe Cabinet"
-subtitle: "Protracted People's Poplar Project"
+title: "Protracted People's Poplar Project"
+subtitle: "Poplar Shoe Cabinet"
 date: 2026-03-26
 post_class: woodworking
 tags: [tools, shop, woodworking, furniture]
