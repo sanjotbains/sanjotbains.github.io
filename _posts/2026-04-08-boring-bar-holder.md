@@ -15,7 +15,7 @@ As I mentioned in the [acquistion article]({{ site.baseurl }}/tools/shop/2026/04
 
 ![10mm Boring Bar]({{ site.baseurl }}/assets/img/sheldon/boring_bar.jpg)
 
-This is a simple enough problem to solve for a man with a lathe. All I need to do is turn a cylinder to fit the boring bar holder and bore it out to fit the boring bar holder. In fact it is such a simple thing I did absolutely zero planning. I spent longer finding a piece of stock to turn this out of than I did thinking about how I was going to make it.
+I briefly considered 3D printing a part but this is a simple enough problem to solve for a man with a lathe. All I need to do is turn a cylinder to fit the boring bar holder and bore it out to fit the boring bar holder. In fact it is such a simple thing I did absolutely zero planning. I spent longer finding a piece of stock to turn this out of than I did thinking about how I was going to make it.
 
 I found a piece, something like 1-3/8" in diameter and fairly clean, an offcut from a tilt lock pin for a fifth wheel I made earlier this week.
 

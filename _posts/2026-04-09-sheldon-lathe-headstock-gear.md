@@ -3,7 +3,7 @@ layout: post
 title: "Sheldon Lathe Headstock Gear"
 subtitle: "A 3D printed solution to a Formica problem."
 date: 2026-04-09
-post_class: machining
+post_class: 3dprinting
 tags: [tools, shop, machining, lathe, Onshape, 3D printing, sheldon]
 ---
 
