@@ -23,7 +23,7 @@ Its twin, the forward feed gear is brass. It seems that the second gear was chos
 
 <!-- Insert image of right-left selection -->
 
-There is one more Formica gear in the assembly, connnecting the selector gearing assembly to the feed ratio gearbox (which will get its own article). These Formica gears do more than offer break points in crash scenarios-- they quiet the geartrain considerably, anyone that's heard a straight cut gear transmission can attest.
+There is one more Formica gear in the assembly, connecting the selector gearing assembly to the feed ratio gearbox (which will get its own article). These Formica gears do more than offer break points in crash scenarios-- they quiet the geartrain considerably, anyone that's heard a straight cut gear transmission can attest.
 
 <!-- Insert image of end gearing irl -->
 ![End Gearing Assembly]({{ site.baseurl }}/assets/img/sheldon/end_gearing_assembly_parts_list.png)

@@ -2,7 +2,7 @@
 layout: post    
 title: "Mack CX13 Hookup Light Wiring Box"
 subtitle: "A 3D Printed Wire Enclosure"
-date: 10-12-2025
+date: 2025-10-12
 post_class: 3dprinting
 tags: [3D printing, wiring, Mack]
 ---
