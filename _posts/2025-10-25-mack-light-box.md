@@ -28,7 +28,8 @@ Some quick modeling later:
 <center><img src="{{ site.baseurl }}/assets/img/mack/enclosure_model.PNG" style="width: 50%;"/></center>
 <br>
 
-<center><iframe src="https://gmail3378138.autodesk360.com/shares/public/SH90d2dQT28d5b602811e5e65b88703043e3?mode=embed" width="600" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe></center>
+<center><iframe src="https://gmail3378138.autodesk360.com/shares/public/SH90d2dQT28d5b602811e5e65b88703043e3?mode=embed" width="100%" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" style="max-width: 600px;"></iframe></center>
+<br>
 
 I printed the body and the lid out of PETG on the Bambu P1S. The embedded Fusion preview also shows the TPU gasket I printed for the back side to reduce water intrusion.
 
