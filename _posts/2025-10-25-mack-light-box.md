@@ -4,7 +4,7 @@ title: "Mack CX13 Hookup Light Wiring Box"
 subtitle: "A 3D Printed Wire Enclosure"
 date: 2025-10-12
 post_class: 3dprinting
-tags: [3D printing, wiring, Mack]
+tags: [3D printing, wiring, Mack, Fusion]
 ---
 
 Sometimes at work I am allowed to exercise an iota of creativity, and this was one of those instances I was tasked with replacing the hookup light with a brighter LED one on a MACK CX13.
