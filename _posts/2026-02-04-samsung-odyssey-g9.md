@@ -2,7 +2,7 @@
 layout:
 title: "Big F***ing Monitor"
 subtitle: "Repairing a Samsung Odyssey G9 Monitor."
-date: 02-04-2026
+date: 2026-02-04
 post_class: electrical
 tags: [electrical, repair, PCB, computer]
 ---
@@ -60,7 +60,7 @@ Anyhow, I asked Deepseek to summarize its response to this prompt, that it may f
 </ul>
 </blockquote>
 
-I am not a smart man. I saw that the switching MOSFETs were shorted, so I ordered replacements and soldered them in, replaced the fuse (**Fuse 1**). I had a unfounded sense of optimism that this was all that had gone wrong. I did not read a short at line and neutral of the cord input. I did not check anywhere else.:
+I am not a smart man. I saw that the switching MOSFETs were shorted, so I ordered replacements and soldered them in, replaced the fuse (**Fuse 1**). I had a unfounded sense of optimism that this was all that had gone wrong. I did not read a short at line and neutral of the cord input. I did not check anywhere else:
 
 >Alright, I found the transistors QP801CS and QP802CS to be shorted. they are model MMF60R190QS. I removed them and replaced them with GC20N65F, an equivalent transistor, as well as changed out the fuse. 
 >I realize I probably should have used a Dim Bulb Tester, but I got hasty and just plugged it in to Line voltage. 
@@ -128,6 +128,7 @@ I was probing once again. Something between putting the PSU back together and pl
 
 OK, so it's not the capacitors, but something parallel to the capacitors.
 Let's take a look at the bottom of this PCB:
+
 ![PCB Bottom]({{ site.baseurl }}/assets/img/samsung_g9/PCB_bottom.webp)
 
 I'm not quite even sure how I got to this other than pure dumb luck, so I'll illustrate something for you.
@@ -135,13 +136,14 @@ I'm not quite even sure how I got to this other than pure dumb luck, so I'll ill
 Here is the current path from the filter/rectifier stage to the filter caps of interest:
 <!-- ![PCB Detail 1]({{ site.baseurl }}/assets/img/samsung_g9/PCB_bottom_detail1.webp) -->
 <center><img src="{{ site.baseurl }}/assets/img/samsung_g9/PCB_bottom_detail1.webp"/></center>
-
+<br>
 And now, two datasheets, the original U10A6CI diode and the replacement LXA10T600:
 
 <div style="display: flex;">
   <img src="{{ site.baseurl }}/assets/img/samsung_g9/U10A6CI.png" style="width: 50%;" />
   <img src="{{ site.baseurl }}/assets/img/samsung_g9/LXA10T600.png" style="width: 50%;" />
 </div>
+<br>
 <!-- ![U10A6CI Datasheet]({ ![LXA10T600 Datasheet]() -->
 
 And just for good effect, observe them irl:
@@ -150,7 +152,7 @@ And just for good effect, observe them irl:
 Noticing? Maybe not, let me make it explicit with another illustration:
 <!-- ![PCB Detail 2]({{ site.baseurl }}/assets/img/samsung_g9/PCB_bottom_detail2.webp) -->
 <center><img src="{{ site.baseurl }}/assets/img/samsung_g9/PCB_bottom_detail2.webp"/></center>
-
+<br>
 The replacement diode's mounting flange is electrically connected to the cathode (K) of the diode itself.
 
 The path through the capacitor doesn't "matter" except to illustrate why the cap didn't charge, the big issue is the cathode getting that high voltage input instead of what it's supposed to get at the output of the cap.

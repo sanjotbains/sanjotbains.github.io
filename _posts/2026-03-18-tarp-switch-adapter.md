@@ -13,8 +13,6 @@ This one is for a tarp switch on a MACK CX13 (yes, the same one as last time).
 
 I modeled this during my Onshape phase, and unfortunately they don't have a built-in embedded viewer, so you'll have to live with images and a link to the part. 
 
-The adapter is modeled off the switch that will be going into the slot. Unfortunately this switch does not have any reliefs in which to add extra meat to bear on, so we'l have to live with just a central pillar.
-
 Very similar story to last time.
 I modeled the perimeter of the cover and the perimeter of the new switch and printed a test piece.
 In this case, the switch body fits the dash's slot width, just not the height. This is not a problem per se, but we have to make the adapter wider than the original cover width. Thankfully the slots are spaced sparsely enough that we need not worry about overlap.
@@ -27,13 +25,15 @@ Instead of an extrusion with features being "cut out" of it, we simply loft the 
 
 ![Clasp Wing Sketch]({{ site.baseurl }}/assets/img/switch_adapter2/clasp_geometry.png)
 
-All modeled:
-![Modeled]({{ site.baseurl }}/assets/img/switch_adapter2/modeled.png)
+Unfortunately this switch does not have any reliefs in which to add extra meat to bear on, so we'l have to live with just a central pillar.
 
-And printed:
+## All modeled:
+<center><img src="{{ site.baseurl }}/assets/img/switch_adapter2/modeled.png" /></center>
+
+## And printed:
 ![Second Test Print]({{ site.baseurl }}/assets/img/switch_adapter2/test2.jpg)
 
-And installed:
+## And installed:
 
 <div style="display: flex;">
   <img src="{{ site.baseurl }}/assets/img/switch_adapter2/installed1.jpg" style="width: 50%;" />

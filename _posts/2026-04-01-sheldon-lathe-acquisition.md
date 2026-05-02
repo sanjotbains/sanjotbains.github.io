@@ -17,7 +17,7 @@ A Sheldon MW56P. Swings 13". 56" bed. 2HP.
 
 Take a look at that.
 
-<!-- Insert Image -->
+![Lathe Picture]({{ site.baseurl }}/assets/img/sheldon/sheldon.jpg)
 
 $500.
 
