@@ -18,6 +18,7 @@ A Sheldon MW56P. Swings 13". 56" bed. 2HP.
 Take a look at that.
 
 ![Lathe Picture]({{ site.baseurl }}/assets/img/sheldon/sheldon.jpg)
+![Lathe in Place]({{ site.baseurl }}/assets/img/sheldon/sheldon2.jpg)
 
 $500.
 
@@ -56,12 +57,15 @@ And 90 miles back home. I got it in the shop and left for 3 days to Seattle. By 
 
 ![VEVOR Digital Phase Shifter]({{ site.baseurl }}/assets/img/sheldon/VEVOR_DPS.jpg)
 
-The lathe came with quite a few accoutrements, many of them quite "premium", but owing to its age, the actual tooling offerings are subpar: chipped brazed carbide and some fairly good HSS tools, including a very nice parting tool. The compund is equipped with a KDK QC tool post, and a number of toolholders. 
+The lathe came with quite a few accoutrements, many of them quite "premium", but owing to its age, the actual tooling offerings are subpar: chipped brazed carbide and some fairly good HSS tools, including a very nice parting tool. The compound is equipped with a KDK QC tool post, and a number of toolholders. 
 
 ![KDK Tool Holder]({{ site.baseurl }}/assets/img/sheldon/KDK_toolpost.jpg)
 
-The toolholders are made to hold HSS blanks, and are thus undersized for the larger shanks of modern carbide insert holders. Some of them have been milled out to accomadate the larger shanks of some of the old brazed carbide tooling, but again-insufficient length for modern tooling.
+The toolholders are made to hold HSS blanks, and are thus undersized for the larger shanks of modern carbide insert holders. Some of them have been milled out to accommodate the larger shanks of some of the old brazed carbide tooling, but again-insufficient length for modern tooling.
 
-I've picked up some Amazon-special 10mm shank tooling, a little undersized perhaps but fine for $40. The boring and internal threading bars are also 10mm shank, much too large for what I think is the boring bar holder.
+I've picked up some Amazon-special 10mm shank tooling, a little undersized perhaps but fine for $40. The boring and internal threading bars are also 10mm shank, much too small for what I think is the boring bar holder.
+
+I've also picked up some toolboxes on Marketplace, one of which I've selected to hold the lathe tooling and other accoutrements.
 
 Anyhow, this will inevitably be a wellspring of projects, many of which I foresee myself not completing for years. 
+### Stay tuned.

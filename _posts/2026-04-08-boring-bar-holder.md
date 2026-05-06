@@ -17,7 +17,9 @@ The toolholders cleaned up pretty nicely in the Evaporust bath.
 
 ![The Toolholder]({{ site.baseurl }}/assets/img/boring_bar_holder/toolholder.jpg)
 
-I suspect this thin shank will chatter quite a bit taking a big cut, but a small boring bar retains its utility late into a machinist's life.
+> I typically clean off the carbon film left by the Evaporust with a brass wire brush, but this leaves a golden cast on the surface. It comes off fairly easy with Scotchbrite, or even the big wire wheel, but I hate extra steps. 
+
+## I suspect this thin shank will chatter quite a bit taking a big cut, but a small boring bar retains its utility late into a machinist's life.
 
 ![10mm Boring Bar]({{ site.baseurl }}/assets/img/boring_bar_holder/boring_bars.jpg)
 
@@ -37,11 +39,15 @@ I turned the stock roughly to diameter before upping the RPM and taking light cu
 
 ![Shank Adapter]({{ site.baseurl }}/assets/img/boring_bar_holder/shank.jpg)
 
-At this point, I was still holding on to the excess stock in the chuck, mill scale and all and turned it around intending to part it into a simple cylinder. But pulling it out and looking at it, I thought it'd look quite attractive with a nice flange. I faced the end until it was a suitable thickness and stuck a hefty chamfer onto it.
+> The flash makes this look worse than it actually is.
+
+At this point, I was still holding on to the excess stock in the chuck, mill scale and all and turned it around intending to part it into a simple cylinder. But pulling it out and looking at it, I thought it'd look quite attractive with a nice flange. I parted the end to a suitable thickness and stuck a hefty chamfer onto it.
 
 ![Shank in Chuck]({{ site.baseurl }}/assets/img/boring_bar_holder/facing.jpg)
 
-The flange has an additional benefit of locating the adapter to the proper depth in the holder.
+> I hate parting, I'm always scared and inevitably I get a terrible surface finish. I took one or two cleanup passes but left some of the scarring as a "parting gift."
+
+## The flange has an additional benefit of locating the adapter to the proper depth in the holder.
 
 <div style="display: flex;">
   <img src="{{ site.baseurl }}/assets/img/boring_bar_holder/located1.jpg" style="width: 50%;" />
@@ -49,15 +55,14 @@ The flange has an additional benefit of locating the adapter to the proper depth
 </div>
 <br>
 
-Now that the adapter was turned, I had to finally consider how I was going to hold the boring bar in the holder. The bar it self has a flat for set screws to touch down on and I do not have a slitting saw, or much even a mill that would hold it, to make a clamping mechanism, so set screws it is. I scribed a line with the carriage to mark where I'd drill.
+Now that the adapter was turned, I had to finally consider how I was going to hold the boring bar in the holder. The bar it self has a flat for set screws to touch down on and I do not have a slitting saw, or so much as a mill that would hold it, to make a clamping mechanism, so set screws it is. I scribed a line with the carriage to mark where I'd drill.
 
 I've no drill press vise but this corner clamp vise works fairly well. I drilled and tapped some 1/4"-28 holes and put in some 1/4" long set screws.
 
 ![Adapter in Vise]({{ site.baseurl }}/assets/img/boring_bar_holder/drilling_vise.jpg)
 
-Unfortunately they protrude a bit, so they have to be turned down. I placed them in a collet and turned down the length to about 3/16", maybe a little less.
-
-![Turning Set Screws]({{ site.baseurl }}/assets/img/boring_bar_holder/turning_set_screws.jpg)
+Unfortunately they protrude a bit, so I thought I'd just turn the length to about 3/16", maybe a little less. Unfortunately, the screws were a little too large for a 7/32" collet and too small for a 1/4" collet. There was simply no way to hold them properly in the chuck. I guess I could have just touched them on the grinder, there was only a 1/16" to take off, but I could not stand not having that gnarled, burred face inside my part. 
+So, I overnighted some off of Amazon and went on my merry way. 
 
 ## All done:
 
