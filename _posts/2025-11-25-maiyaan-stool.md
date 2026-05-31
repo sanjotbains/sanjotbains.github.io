@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  
+title:  "Making Matrimonial Merriment at a Maiyaan"
 subtitle: "A luxurious footstool for my sister's wedding." 
 date: 2025-11-25
 post_class: woodworking
