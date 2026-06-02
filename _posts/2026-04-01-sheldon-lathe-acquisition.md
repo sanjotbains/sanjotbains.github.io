@@ -28,8 +28,8 @@ Collets. Hardinge. Draw Bar.
 
 Chucks.
 
-![Four-Jaw Chuck]({{ site.baseurl }}/assets/img/sheldon/4jaw_partial.jpg)
-![Three-Jaw Chuck]({{ site.baseurl }}/assets/img/sheldon/installed_3jaw_rusty.jpg)
+![Four-Jaw Chuck]({{ site.baseurl }}/assets/img/sheldon/four_jaw/4jaw_partial.jpg)
+![Three-Jaw Chuck]({{ site.baseurl }}/assets/img/sheldon/three_jaw/installed_3jaw_rusty.jpg)
 
 Drill Arbors. 20yo Grease.
 
@@ -59,7 +59,7 @@ And 90 miles back home. I got it in the shop and left for 3 days to Seattle. By 
 
 The lathe came with quite a few accoutrements, many of them quite "premium", but owing to its age, the actual tooling offerings are subpar: chipped brazed carbide and some fairly good HSS tools, including a very nice parting tool. The compound is equipped with a KDK QC tool post, and a number of toolholders. 
 
-![KDK Tool Holder]({{ site.baseurl }}/assets/img/sheldon/KDK_toolpost.jpg)
+![KDK Tool Holder]({{ site.baseurl }}/assets/img/sheldon/toolholder/KDK_toolpost.jpg)
 
 The toolholders are made to hold HSS blanks, and are thus undersized for the larger shanks of modern carbide insert holders. Some of them have been milled out to accommodate the larger shanks of some of the old brazed carbide tooling, but again-insufficient length for modern tooling.
 
