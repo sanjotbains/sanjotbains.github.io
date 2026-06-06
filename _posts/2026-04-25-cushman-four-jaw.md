@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cushman Four Jaw Chuck"
+title: "Cushman Four Jaw Independent Chuck"
 subtitle: "."
 date: 2026-04-25
 post_class: machining
