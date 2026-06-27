@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cushman Four Jaw Independent Chuck"
-subtitle: "."
+subtitle: "what would you eat if you had four jaws"
 date: 2026-04-25
 post_class: machining
 tags: [tools, shop, machining, lathe, cushman, sheldon, chuck]
@@ -9,7 +9,7 @@ tags: [tools, shop, machining, lathe, cushman, sheldon, chuck]
 
 The first thing I decided to tackle after the headstock gear was the inimitable four jaw chuck. It is often said that the four jaw has no equal; if one could only have one chuck, it ought to be the four jaw. Of course I am a simple man who mostly just makes concentric parts, so it is much more convenient to take this one out of commission instead of the three jaw.
 
-I ran out the jaws all the way, removed the cam catch pins and set the whole shebang into the Evaporust. It was impossible the remove the thrust bearings that hold in the worm gears with the rust, and not much easier afterward.
+I ran out the jaws all the way, removed the cam latch pins and set the whole shebang into the Evaporust. It was impossible the remove the thrust bearings that hold in the worm gears with the rust, and not much easier afterward.
 
 I poured some penetrating oil into the rear and set upon it with a big pin punch and a hammer. 
 
